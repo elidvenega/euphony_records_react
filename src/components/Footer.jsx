@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const Footer = () => {
+    const link = "#";
   return (
    <>
     {/* <!-- grid list--> */}
@@ -10,76 +11,76 @@ export const Footer = () => {
           <ul>
             <li>Shop & Learn</li>
             <li>
-              <a href="#">Music</a>
+              <a href={link}>Music</a>
             </li>
             <li>
-              <a href="#">Movies</a>
+              <a href={link}>Movies</a>
             </li>
             <li>
-              <a href="#">Shows</a>
+              <a href={link}>Shows</a>
             </li>
             <li>
-              <a href="#">Apps</a>
+              <a href={link}>Apps</a>
             </li>
             <li>
-              <a href="#">Gift Cards</a>
+              <a href={link}>Gift Cards</a>
             </li>
           </ul>
 
           <ul>
             <li>Record Store</li>
             <li>
-              <a href="#">Find a Store</a>
+              <a href={link}>Find a Store</a>
             </li>
             <li>
-              <a href="#">Today at Orange</a>
+              <a href={link}>Today at Orange</a>
             </li>
             <li>
-              <a href="#">Orange Camp</a>
+              <a href={link}>Orange Camp</a>
             </li>
             <li>
-              <a href="#">Financing</a>
+              <a href={link}>Financing</a>
             </li>
             <li>
-              <a href="#">Order Status</a>
+              <a href={link}>Order Status</a>
             </li>
           </ul>
 
           <ul>
             <li>Education & Business</li>
             <li>
-              <a href="#">Education</a>
+              <a href={link}>Education</a>
             </li>
             <li>
-              <a href="#">Shop For College</a>
+              <a href={link}>Shop For College</a>
             </li>
             <li>
-              <a href="#">Orange & Business</a>
+              <a href={link}>Orange & Business</a>
             </li>
             <li>
-              <a href="#">Shop For Business</a>
+              <a href={link}>Shop For Business</a>
             </li>
             <li>
-              <a href="#">Jobs</a>
+              <a href={link}>Jobs</a>
             </li>
           </ul>
 
           <ul>
             <li>About Record</li>
             <li>
-              <a href="#">Newsroom</a>
+              <a href={link}>Newsroom</a>
             </li>
             <li>
-              <a href="#">Leadership</a>
+              <a href={link}>Leadership</a>
             </li>
             <li>
-              <a href="#">Investors</a>
+              <a href={link}>Investors</a>
             </li>
             <li>
-              <a href="#">Events</a>
+              <a href={link}>Events</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href={link}>Contact</a>
             </li>
           </ul>
         </div>
@@ -88,9 +89,9 @@ export const Footer = () => {
 
     <footer>
       <div className="links">
-        <a href="#"><i className="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i className="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i className="fab fa-twitter fa-2x"></i></a>
+        <a href={link}><i className="fab fa-facebook fa-2x"></i></a>
+        <a href={link}><i className="fab fa-instagram fa-2x"></i></a>
+        <a href={link}><i className="fab fa-twitter fa-2x"></i></a>
       </div>
     </footer>
    </>
