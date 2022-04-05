@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const MainImg = () => {
+    const link = '#';
   return (
    <>
      <div id="store">
@@ -8,7 +9,7 @@ export const MainImg = () => {
       <h1>Euphony Records</h1>
       <p>Changing the world through music</p>
 
-      <a className="btn" href="#">Music</a>
+      <a className="btn" href={link}>Music</a>
       </div>
    </>
   )
