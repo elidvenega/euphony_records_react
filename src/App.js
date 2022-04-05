@@ -1,11 +1,16 @@
-//import { Nav } from './components/Nav';
+import { Nav } from './components/Nav';
+import { MainImg } from './components/MainImg';
+import { Body } from './components/Body';
+import {Footer} from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-   
-    <h1>Hello</h1>
-    </div>
+    < >
+    <Nav />
+    <MainImg />
+    <Body />
+    <Footer/>
+    </>
   );
 }
 
