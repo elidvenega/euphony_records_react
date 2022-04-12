@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
 :root {
-    --primary-color: #252529;
+    --main-color: #252529;
     --secondary-color: #3d3d3d;
     --btn-dark: #2c3a47;
     --btn-dark-two: #303952;
@@ -26,7 +26,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: #fff;
 }
 .nav-links a {
@@ -56,7 +56,7 @@ li {
     position: relative;
 }
 .dropdown {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     padding: 1em 0;
     position: absolute;
     /*WITH RESPECT TO PARENT*/
@@ -217,7 +217,7 @@ input[type="checkbox"] {
 }
 /* buttons */
 .btn {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: #fff;
     height: 50px;
     padding: 15px;
@@ -248,7 +248,7 @@ input[type="checkbox"] {
     color: #fff;
 }
 .btn-2 {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: #fff;
     height: 50px;
     padding: 15px;
@@ -299,7 +299,7 @@ input[type="checkbox"] {
 }
 /* footer */
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: rgb(59, 59, 59);
     font-size: 1.5rem;
     text-align: center;
@@ -380,7 +380,7 @@ footer a {
     .menu {
         display: none;
         position: absolute;
-        background-color: var(--primary-color);
+        background-color: var(--main-color);
         right: 0;
         left: 0;
         text-align: center;
@@ -448,7 +448,7 @@ footer a {
     }
     /* button */
     .btn {
-        background-color: var(--primary-color);
+        background-color: var(--main-color);
         color: #fff;
         padding: 0.7rem 0.9rem;
         display: inline-block;
@@ -473,7 +473,7 @@ footer a {
         color: #fff;
     }
     .btn-2 {
-        background-color: var(--primary-color);
+        background-color: var(--main-color);
         color: #fff;
         font-size: 0.9rem;
         padding: 0.7rem 0.9rem;
