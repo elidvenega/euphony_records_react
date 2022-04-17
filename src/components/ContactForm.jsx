@@ -1,32 +1,52 @@
 import React from "react";
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
 
 export const ContactForm = () => {
   return (
-
-    <>
-  <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
-    <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text>
-  </Form.Group>
-
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-</Form>
-</>
-    
+    <React.Fragment>
+      <section id="contact" className="contain">
+        <div className="contact-form bg-primary">
+          <h2 className="m-heading text-center">Contact Us</h2>
+          <p className="text-center">Please use the form below to contact us</p>
+          <form>
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Name"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="phone">Phone Number</label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Enter Phone Number"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea
+                name="name"
+                id="name"
+                placeholder="Enter Name"
+              ></textarea>
+            </div>
+            <input type="submit" value="Submit" className="btn-submit" />
+          </form>
+        </div>
+      </section>
+    </React.Fragment>
   );
 };
