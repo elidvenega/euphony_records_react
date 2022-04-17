@@ -21,6 +21,9 @@ export const Nav = () => {
           <li className="services">
             <a href={music}>Music</a>
           </li>
+          <li className="services">
+            <a href={home}>Contact</a>
+          </li>
         </div>
       </ul>
     </nav>
