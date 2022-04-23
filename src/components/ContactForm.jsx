@@ -1,8 +1,31 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 
 export const ContactForm = () => {
+  const home = "#home";
+
   return (
     <React.Fragment>
+      <nav className="navbar">
+        {/* <!-- LOGO --> */}
+        <div className="logo">Euphony</div>
+        {/* <!-- NAVIGATION MENU --> */}
+        <ul className="nav-links">
+          {/* <!-- USING CHECKBOX HACK --> */}
+          <input type="checkbox" id="checkbox_toggle" />
+          <label htmlFor="checkbox_toggle" className="hamburger">
+            &#9776;
+          </label>
+          {/* <!-- NAVIGATION MENUS --> */}
+          <div className="menu">
+            <li>
+              <a href={home}>
+                <Link to="/">Home</Link>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
       <section id="contact" className="contain">
         <div className="contact-form bg-primary">
           <h2 className="m-heading text-center">Contact Us</h2>
