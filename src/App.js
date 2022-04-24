@@ -1,6 +1,5 @@
 import { MainImg } from "./components/MainImg";
 import { Body } from "./components/Body";
-import { Footer } from "./components/Footer";
 import { Link, Outlet } from "react-router-dom";
 
 function App() {
@@ -40,7 +39,6 @@ function App() {
 
       <MainImg />
       <Body />
-      <Footer />
       <p> This text is a test</p>
     </>
   );

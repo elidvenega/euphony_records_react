@@ -333,7 +333,7 @@ input[type="checkbox"] {
 }
 
 /* footer */
-footer {
+/* footer {
   background-color: var(--main-color);
   color: rgb(59, 59, 59);
   font-size: 1.5rem;
@@ -344,7 +344,7 @@ footer {
 footer a {
   color: #fff;
   padding: 10px;
-}
+} */
 /* Animation */
 @keyframes slideInFromTop {
   0% {
