@@ -9,7 +9,7 @@ export const MainImg = () => {
       <h1>Euphony Records</h1>
       <p>Changing the world through music</p>
 
-      <button className="button-21" role="button">Music</button>
+      <a className="btn" href={link}>Music</a>
       </div>
    </>
   )
