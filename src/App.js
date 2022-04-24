@@ -41,6 +41,7 @@ function App() {
       <MainImg />
       <Body />
       <Footer />
+      <p> This text is a test</p>
     </>
   );
 }
