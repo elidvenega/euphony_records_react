@@ -38,7 +38,7 @@ export const Body = () => {
         you like. I recommend to check our catalog our team is professional and
         will assist with any questions you may have.
       </p>
-      <a className="btn-1 z-index" href={link}> Read More</a>
+      <button className="button-21" role="button">Music</button>
     </div>
     {/* <!-- fancy laptop img --> */}
     <div id="music-img"></div>

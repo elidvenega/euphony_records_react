@@ -19,9 +19,7 @@ export const ContactForm = () => {
           {/* <!-- NAVIGATION MENUS --> */}
           <div className="menu">
             <li>
-              <a href={home}>
-                <Link to="/">Home</Link>
-              </a>
+              <Link to="/">Home</Link>
             </li>
           </div>
         </ul>
