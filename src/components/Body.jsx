@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Body = () => {
-  const link = "#";
   return (
    <>
     <section id="about" className="container">
@@ -32,13 +31,13 @@ export const Body = () => {
     {/* <!-- text --> */}
     <div id="music">
       <div id="layer"></div>
-      <h1 className="caption text-centern white z-index">Music</h1>
+      <h1 className="caption text-center white z-index">Music</h1>
       <p className="lead white z-index text-center lead">
         We sell music records of all genres so I'm sure you will find something
         you like. I recommend to check our catalog our team is professional and
         will assist with any questions you may have.
       </p>
-      <button className="button-21" role="button">Music</button>
+      <button className="button-21">Music</button>
     </div>
     {/* <!-- fancy laptop img --> */}
     <div id="music-img"></div>

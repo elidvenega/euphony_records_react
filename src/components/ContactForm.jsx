@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 export const ContactForm = () => {
-  const home = "#home";
 
   return (
     <React.Fragment>
@@ -71,3 +70,4 @@ export const ContactForm = () => {
     </React.Fragment>
   );
 };
+ 
