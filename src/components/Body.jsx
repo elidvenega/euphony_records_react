@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Body = () => {
-  const link = "#";
   return (
    <>
     <section id="about" className="container">
@@ -38,7 +37,7 @@ export const Body = () => {
         you like. I recommend to check our catalog our team is professional and
         will assist with any questions you may have.
       </p>
-      <button className="button-21" role="button">Music</button>
+      <button className="button-21">Music</button>
     </div>
     {/* <!-- fancy laptop img --> */}
     <div id="music-img"></div>
