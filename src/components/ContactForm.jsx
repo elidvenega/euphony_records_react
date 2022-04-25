@@ -1,8 +1,7 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const ContactForm = () => {
-
   return (
     <React.Fragment>
       <nav className="navbar">
@@ -70,4 +69,3 @@ export const ContactForm = () => {
     </React.Fragment>
   );
 };
- 

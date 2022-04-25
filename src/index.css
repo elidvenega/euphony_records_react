@@ -2,8 +2,8 @@
 :root {
   --main-color: #252529;
   --secondary-color: #3d3d3d;
-  --btn-dark: #2c3a47;
-  --btn-dark-two: #303952;
+  --btn-color-one: #4f58fd;
+  --btn-color-two: #149bf3;
 }
 * {
   margin: 0;
@@ -44,7 +44,7 @@ li {
   z-index: 1;
 }
 .menu li:hover {
-  background-color: var(--btn-dark-two);
+  background-color: var(--secondary-color);
   border-radius: 5px;
   transition: 0.3s ease;
 }
@@ -73,7 +73,7 @@ li {
   text-align: center;
 }
 .dropdown li:hover {
-  background-color: var(--btn-dark-two);
+  background-color: var(--btn-color-one);
 }
 .services:hover .dropdown {
   display: block;
@@ -216,11 +216,15 @@ input[type="checkbox"] {
   color: #fff;
 }
 /* buttons */
-.button-21 {
+.button {
   align-items: center;
   appearance: none;
   background-color: #3eb2fd;
-  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-image: linear-gradient(
+    1deg,
+    var(--btn-color-one),
+    var(--btn-color-two) 99%
+  );
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
@@ -235,7 +239,7 @@ input[type="checkbox"] {
   justify-content: center;
   line-height: 1.5;
   margin-top: 60px;
-  padding: 12px 50px;
+  padding: 10px 50px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -247,16 +251,16 @@ input[type="checkbox"] {
   white-space: nowrap;
 }
 
-.button-21:active,
-.button-21:focus {
+.button:active,
+.button:focus {
   outline: none;
 }
 
-.button-21:hover {
+.button:hover {
   background-position: -20px -20px;
 }
 
-.button-21:focus:not(:active) {
+.button:focus:not(:active) {
   box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
 }
 
@@ -321,19 +325,19 @@ input[type="checkbox"] {
 }
 
 .btn-submit {
-  max-width: 100%;
-  background: var(--btn-dark);
-  border: #000;
+  background: linear-gradient(
+    1deg,
+    var(--btn-color-one),
+    var(--btn-color-two) 99%
+  );
+  border: none;
+  border-radius: 15px;
   color: #fff;
-}
-
-.btn-submit:hover {
-  background: var(--btn-dark-two);
-  font-size: 1rem;
+  max-width: 100%;
 }
 
 /* footer */
-/* footer {
+footer {
   background-color: var(--main-color);
   color: rgb(59, 59, 59);
   font-size: 1.5rem;
@@ -344,7 +348,7 @@ input[type="checkbox"] {
 footer a {
   color: #fff;
   padding: 10px;
-} */
+}
 /* Animation */
 @keyframes slideInFromTop {
   0% {
