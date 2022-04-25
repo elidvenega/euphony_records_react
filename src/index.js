@@ -5,14 +5,12 @@ import "./index.css";
 import App from "./App";
 import { ContactForm } from "./components/ContactForm";
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="ContactForm" element={<ContactForm />} />
-      
     </Routes>
   </BrowserRouter>
 );
