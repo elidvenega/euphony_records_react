@@ -3,7 +3,7 @@ import { Body } from "./components/Body";
 import { Footer } from "./components/Footer";
 import { Link, Outlet } from "react-router-dom";
 
-function App() {
+export default function App() {
   const home = "#home";
   const about = "#about";
   const music = "#music";
@@ -45,4 +45,4 @@ function App() {
   );
 }
 
-export default App;
+
