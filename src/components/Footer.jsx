@@ -2,6 +2,9 @@ import React from "react";
 
 export const Footer = () => {
   const link = "#";
+  const twitter = "https://twitter.com";
+  const facebook = "https://www.facebook.com/";
+  const instagram = "https://www.instagram.com/";
   return (
     <>
       {/* <!-- grid list--> */}
@@ -83,13 +86,13 @@ export const Footer = () => {
 
       <footer>
         <div className="links">
-          <a href={link}>
+          <a href={facebook} target="_blank">
             <i className="fab fa-facebook fa-2x"></i>
           </a>
-          <a href={link}>
+          <a href={instagram} target="_blank">
             <i className="fab fa-instagram fa-2x"></i>
           </a>
-          <a href={link}>
+          <a href={twitter} target="_blank">
             <i className="fab fa-twitter fa-2x"></i>
           </a>
         </div>
