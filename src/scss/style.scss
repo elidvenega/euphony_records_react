@@ -1,32 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
-:root {
-  --main-color: #252529;
-  --secondary-color: #3d3d3d;
-  --btn-color-one: #4f58fd;
-  --btn-color-two: #149bf3;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+$main-color: #3c6382;
+$secondary-color: #60a3bc;
+$btn-color-one: #4f58fd;
+$btn-color-two: #149bf3;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Varela", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
 }
+
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }
+
 /* NAVBAR STYLING STARTS */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  background-color: var(--main-color);
+  background-color: $main-color;
   color: #fff;
 }
 .nav-links a {
@@ -44,7 +48,7 @@ li {
   z-index: 1;
 }
 .menu li:hover {
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   border-radius: 5px;
   transition: 0.3s ease;
 }
@@ -56,7 +60,7 @@ li {
   position: relative;
 }
 .dropdown {
-  background-color: var(--main-color);
+  background-color: $main-color;
   padding: 14px 0;
   position: absolute;
   /*WITH RESPECT TO PARENT*/
@@ -73,7 +77,7 @@ li {
   text-align: center;
 }
 .dropdown li:hover {
-  background-color: var(--btn-color-one);
+  background-color: $btn-color-one;
 }
 .services:hover .dropdown {
   display: block;
@@ -89,7 +93,7 @@ input[type="checkbox"] {
 }
 /* Main picture */
 #store {
-  background: #000 url("../../img/music-2.jpg") no-repeat center/cover;
+  background: #000 url("../assets/images/main-pic.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -110,9 +114,8 @@ input[type="checkbox"] {
   margin-top: 25vh;
 }
 #store h1 {
-  font-size: 4.3rem;
+  font-size: 4.1rem;
   z-index: 1;
-  margin-top: 90px;
   color: #fff;
   animation: slideInFromTop 1s ease-in;
 }
@@ -137,7 +140,7 @@ input[type="checkbox"] {
   margin: 4rem;
 }
 .square {
-  background: url("../../img/img-1.jpg") no-repeat center center/cover;
+  background: url("../assets/images/img-1.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -145,7 +148,7 @@ input[type="checkbox"] {
   z-index: 1;
 }
 .square-1 {
-  background: url("../../img/img-2.jpg") no-repeat center center/cover;
+  background: url("../assets/images/img-2.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -153,14 +156,14 @@ input[type="checkbox"] {
   z-index: 1;
 }
 .square-2 {
-  background: url("../../img/img-3.jpg") no-repeat center center/cover;
+  background: url("../assets/images/img-3.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
   height: 60vh;
 }
 .square-3 {
-  background: url("../../img/music-store.jpg") no-repeat center center/cover;
+  background: url("../assets/images/img-4.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -181,7 +184,7 @@ input[type="checkbox"] {
 }
 /* music img */
 #music-img {
-  background: url("../../img/laptop.jpg") no-repeat center/cover;
+  background: url("../assets/images/laptop.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
 }
@@ -222,8 +225,8 @@ input[type="checkbox"] {
   background-color: #3eb2fd;
   background-image: linear-gradient(
     1deg,
-    var(--btn-color-one),
-    var(--btn-color-two) 99%
+    var($btn-color-one),
+    var($btn-color-two) 99%
   );
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
@@ -234,12 +237,12 @@ input[type="checkbox"] {
   cursor: pointer;
   display: inline-flex;
   font-family: CircularStd, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   height: auto;
   justify-content: center;
   line-height: 1.5;
   margin-top: 60px;
-  padding: 10px 50px;
+  padding: 5px 50px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -266,8 +269,7 @@ input[type="checkbox"] {
 
 /* last pic */
 #music {
-  /* background: #000 url('../img/music-2.jpg')no-repeat center/cover; */
-  background: #000 url("../../img/music.jpg") no-repeat center/cover;
+  background: #000 url("../assets/images/music.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -325,11 +327,7 @@ input[type="checkbox"] {
 }
 
 .btn-submit {
-  background: linear-gradient(
-    1deg,
-    var(--btn-color-one),
-    var(--btn-color-two) 99%
-  );
+  background: linear-gradient(1deg, $btn-color-one, $btn-color-two 99%);
   border: none;
   border-radius: 15px;
   color: #fff;
@@ -339,16 +337,16 @@ input[type="checkbox"] {
 
 /* footer */
 footer {
-  background-color: var(--main-color);
+  background-color: $main-color;
   color: rgb(59, 59, 59);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   padding: 40px;
-  height: 120px;
+  height: 170px;
 }
 footer a {
   color: #fff;
-  padding: 10px;
+  padding: 15px;
 }
 /* Animation */
 @keyframes slideInFromTop {
@@ -421,7 +419,7 @@ footer a {
   .menu {
     display: none;
     position: absolute;
-    background-color: var(--main-color);
+    background-color: $main-color;
     right: 0;
     left: 0;
     text-align: center;
@@ -429,7 +427,7 @@ footer a {
   }
   .menu li:hover {
     display: inline-block;
-    background-color: var(--btn-dark-two);
+    background-color: $btn-color-two;
     transition: 0.3s ease;
   }
   .menu li + li {
@@ -518,11 +516,7 @@ footer a {
   }
 
   .btn-submit {
-    background: linear-gradient(
-      1deg,
-      var(--btn-color-one),
-      var(--btn-color-two) 99%
-    );
+    background: linear-gradient(1deg, $btn-color-one, $btn-color-two 99%);
     border: none;
     border-radius: 15px;
     color: #fff;
@@ -533,7 +527,7 @@ footer a {
     display: none;
   }
   footer a {
-    padding: 10px;
+    padding: 15px;
     font-size: 20px;
   }
 }
