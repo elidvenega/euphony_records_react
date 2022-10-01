@@ -28,8 +28,8 @@ export const Body = () => {
           <h1>Careers</h1>
         </div>
       </div>
-      {/* <!-- text --> */}
-      <div id="music">
+      {/*  text  */}
+      <div className="music">
         <div id="layer"></div>
         <h1 className="caption text-center white z-index">Music</h1>
         <p className="lead white z-index text-center lead">
@@ -39,11 +39,11 @@ export const Body = () => {
         </p>
         <button className="button">Music</button>
       </div>
-      {/* <!-- fancy laptop img --> */}
-      <div id="music-img"></div>
+      {/* fancy laptop img */}
+      <div className="music-img"></div>
 
-      {/* <!-- entertainment --> */}
-      <div id="music" className="section"></div>
+      {/* last pic */}
+      <div className="section last-pic"></div>
     </>
   );
 };

@@ -1,2 +1,9 @@
-@use"./scss/media_query/media";
-@use"./scss/index";
+@use"./scss/animation/animations";
+
+@use"./scss/components/buttons";
+
+@use "./scss/layout/navbar";
+@use "./scss/layout/body";
+
+
+@use "./scss/media_query/media";
