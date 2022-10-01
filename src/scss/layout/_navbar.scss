@@ -2,15 +2,15 @@
 
 /* NAVBAR STYLING STARTS */
 .navbar {
-  display: flex;
   align-items: center;
+  background-color: $main-color;
+  color: $text-color;
+  display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: $main-color;
-  color: #fff;
 }
 .nav-links a {
-  color: #fff;
+  color: $text-color;
 }
 /* LOGO */
 .logo {
