@@ -4,13 +4,13 @@ A music store made using React and React Router, the project was about me workin
 
 ![App Screenshot](https://media.giphy.com/media/S99bETopGmpPOCEHxS/giphy.gif)
 
-## Tech Stack
-
-**Client:** React, React Router, CSS, SCSS
-
 ## Demo
 
 https://euphony-records-store.netlify.app/
+
+## Tech Stack
+
+**Client:** React, React Router, CSS, SCSS
 
 ## Installation
 
