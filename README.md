@@ -4,6 +4,8 @@ A music store build using React and React Router this project was about me
 working on React and how to work with a library it was a challenge. It help me learn how to work with React and convert my HTML and CSS project into React.
 Learned how to seperate my project into components and how to think in React as well how to implement SCSS into the project.
 
+![App Screenshot](https://media.giphy.com/media/S99bETopGmpPOCEHxS/giphy.gif)
+
 ## Tech Stack
 
 **Client:** React, React Router, CSS, SCSS
