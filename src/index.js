@@ -4,14 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './style.scss';
 import App from "./App";
-import { ContactForm } from "./components/ContactForm";
+import { Contact } from "./pages/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="ContactForm" element={<ContactForm />} />
+      <Route path="Contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );

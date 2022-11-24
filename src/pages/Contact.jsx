@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Footer } from "../components/Footer";
 
-export const ContactForm = () => {
+export const Contact = () => {
+  const divStyle = {
+    marginTop: "60px",
+  };
   return (
     <React.Fragment>
       <nav className="navbar">
@@ -67,6 +71,9 @@ export const ContactForm = () => {
           </form>
         </div>
       </section>
+      <div style={divStyle}>
+        <Footer />
+      </div>
     </React.Fragment>
   );
 };

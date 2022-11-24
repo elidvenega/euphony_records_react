@@ -25,7 +25,7 @@ export const Navbar = () => {
               <a href={music}>Music</a>
             </li>
             <li className="services">
-              <Link to="/ContactForm">Contact</Link>
+              <Link to="/Contact">Contact</Link>
             </li>
           </div>
         </ul>
