@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 export const Home = () => {
     const link = "#";
   return (
     <>
+    <Navbar />
       <div id="store">
         <div id="layer"></div>
         <h1>Euphony Records</h1>
@@ -128,6 +131,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   )
 }
