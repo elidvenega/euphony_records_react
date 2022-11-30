@@ -1,14 +1,12 @@
 import { Navbar } from "./components/Navbar";
-import { MainImg } from "./components/MainImg";
-import { Body } from "./components/Body";
+import { Home } from "./pages/Home";
 import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <MainImg />
-      <Body />
+      <Home />
       <Footer />
     </>
   );
