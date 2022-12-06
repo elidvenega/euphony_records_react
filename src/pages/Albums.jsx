@@ -29,7 +29,7 @@ export const Albums = () => {
         </ul>
       </nav>
 
-      <h1>Albums Coming Soon</h1>
+      <h1 className="text-center mt-2">Albums Coming Soon</h1>
     </>
   );
 };
