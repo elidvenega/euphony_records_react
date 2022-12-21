@@ -133,3 +133,23 @@
     display: none;
   }
 }
+
+/* For Big Screens  */
+
+@media (min-width: 1400px) {
+  .contact-footer {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .contact-footer {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .contact-footer {
+    margin-top: 80px;
+  }
+}
