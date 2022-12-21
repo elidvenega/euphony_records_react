@@ -13,3 +13,21 @@ footer a {
   color: #fff;
   padding: 15px;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  footer {
+    background-color: $main-color;
+    color: rgb(59, 59, 59);
+    height: 170px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 40px;
+    margin-top: 80px;
+   
+  }
+  footer a {
+    color: #fff;
+    padding: 15px;
+  }
+  
+}
