@@ -68,9 +68,6 @@ export const Contact = () => {
           </form>
         </div>
       </section>
-      <div className="contact-footer">
-        <Footer />
-      </div>
     </>
   );
 };
