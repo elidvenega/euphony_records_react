@@ -1,9 +1,11 @@
-@use"./scss/animation/animations";
+@use "./scss/abstracts/utilities";
 
-@use"./scss/components/buttons";
+@use "./scss/animation/animations";
+
+@use "./scss/components/buttons";
 
 @use "./scss/layout/navbar";
 @use "./scss/layout/body";
-
+@use "./scss//layout/footer";
 
 @use "./scss/media_query/media";

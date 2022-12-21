@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 
 export const Contact = () => {
   return (
-    <React.Fragment>
+    <>
       <nav className="navbar">
         {/* <!-- LOGO --> */}
         <div className="logo">Euphony</div>
@@ -25,7 +25,7 @@ export const Contact = () => {
       </nav>
       <section id="contact" className="contain">
         <div className="contact-form bg-primary">
-          <h2 className="m-heading text-center">Contact Us</h2>
+          <h1 className="m-heading text-center mt-4">Contact Us</h1>
           <p className="text-center">Please use the form below to contact us</p>
           <form>
             <div className="form-group">
@@ -71,6 +71,6 @@ export const Contact = () => {
       <div className="contact-footer">
         <Footer />
       </div>
-    </React.Fragment>
+    </>
   );
 };

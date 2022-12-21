@@ -1,9 +1,19 @@
-import React from "react";
+import React from 'react';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
-export const Body = () => {
-  const link = "#";
+export const Home = () => {
+    const link = "#";
   return (
     <>
+    <Navbar />
+      <div id="store">
+        <div id="layer"></div>
+        <h1>Euphony Records</h1>
+        <p>Find the music you like</p>
+
+        <button className="button">Music</button>
+      </div>
       <section id="about" className="container">
         <h1 className="caption text-center">About</h1>
         <p className="lead">
@@ -121,6 +131,7 @@ export const Body = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
-  );
-};
+  )
+}
