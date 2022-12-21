@@ -137,50 +137,19 @@
 /* For Big Screens  */
 
 @media (min-width: 1400px) {
-  footer {
-    background-color: $main-color;
-    color: rgb(59, 59, 59);
-    height: 170px;
-    font-size: 2rem;
-    text-align: center;
-    padding: 40px;
+  .contact-footer {
     margin-top: 80px;
-  }
-  footer a {
-    color: #fff;
-    padding: 15px;
   }
 }
 
 @media (min-width: 1600px) {
-  footer {
-    background-color: $main-color;
-    color: rgb(59, 59, 59);
-    height: 170px;
-    font-size: 2rem;
-    text-align: center;
-    padding: 40px;
+  .contact-footer {
     margin-top: 80px;
-  }
-  footer a {
-    color: #fff;
-    padding: 15px;
   }
 }
 
 @media (min-width: 1800px) {
-  footer {
-    background-color: $main-color;
-    color: rgb(59, 59, 59);
-    height: 170px;
-    font-size: 2rem;
-    text-align: center;
-    padding: 40px;
+  .contact-footer {
     margin-top: 80px;
   }
-  footer a {
-    color: #fff;
-    padding: 15px;
-  }
 }
-
