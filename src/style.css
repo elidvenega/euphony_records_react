@@ -279,7 +279,7 @@ li {
 }
 
 .square {
-  background: url("../../assets/images/img-1.jpg") no-repeat center center/cover;
+  background: url("../src/assets/images/img-1.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -288,7 +288,7 @@ li {
 }
 
 .square-1 {
-  background: url("../../assets/images/img-2.jpg") no-repeat center center/cover;
+  background: url("../src/assets/images/img-2.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -297,7 +297,7 @@ li {
 }
 
 .square-2 {
-  background: url("../../assets/images/img-3.jpg") no-repeat center center/cover;
+  background: url("../src/assets/images/img-3.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -305,7 +305,7 @@ li {
 }
 
 .square-3 {
-  background: url("../../assets/images/img-4.jpg") no-repeat center center/cover;
+  background: url("../src/assets/images/img-4.jpg") no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 1.4rem;
@@ -331,7 +331,7 @@ li {
 
 /* music img */
 .music-img {
-  background: url("../../assets/images/laptop.jpg") no-repeat center/cover;
+  background: url("../src/assets/images/laptop.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
 }
@@ -376,7 +376,7 @@ li {
 
 /* music pic */
 .music {
-  background: #000 url("../../assets/images/music.jpg") no-repeat center/cover;
+  background: #000 url("../src/assets/images/music.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -389,7 +389,7 @@ li {
 
 /* last pic */
 .last-pic {
-  background: url("../../assets/images/end-pic.jpg") no-repeat center/cover;
+  background: url("../src/assets/images/end-pic.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;

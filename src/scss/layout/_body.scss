@@ -25,7 +25,7 @@ li {
 
 /* Main picture */
 #store {
-  background: #000 url("../../assets/images/main-pic.jpg") no-repeat
+  background: #000 url("/assets/images/main-pic.jpg") no-repeat
     center/cover;
   height: 100vh;
   max-width: 100%;
@@ -73,7 +73,7 @@ li {
   margin: 4rem;
 }
 .square {
-  background: url("../../assets/images/img-1.jpg") no-repeat center center/cover;
+  background: url("/assets/images/img-1.jpg") no-repeat center center/cover;
   color: $text-color;
   text-align: center;
   padding: 1.4rem;
@@ -81,7 +81,7 @@ li {
   z-index: 1;
 }
 .square-1 {
-  background: url("../../assets/images/img-2.jpg") no-repeat center center/cover;
+  background: url("/assets/images/img-2.jpg") no-repeat center center/cover;
   color: $text-color;
   text-align: center;
   padding: 1.4rem;
@@ -89,14 +89,14 @@ li {
   z-index: 1;
 }
 .square-2 {
-  background: url("../../assets/images/img-3.jpg") no-repeat center center/cover;
+  background: url("/assets/images/img-3.jpg") no-repeat center center/cover;
   color: $text-color;
   text-align: center;
   padding: 1.4rem;
   height: 60vh;
 }
 .square-3 {
-  background: url("../../assets/images/img-4.jpg") no-repeat center center/cover;
+  background: url("/assets/images/img-4.jpg") no-repeat center center/cover;
   color: $text-color;
   text-align: center;
   padding: 1.4rem;
@@ -117,7 +117,7 @@ li {
 }
 /* music img */
 .music-img {
-  background: url("../../assets/images/laptop.jpg") no-repeat center/cover;
+  background: url("/assets/images/laptop.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
 }
@@ -154,7 +154,7 @@ li {
 
 /* music pic */
 .music {
-  background: #000 url("../../assets/images/music.jpg") no-repeat center/cover;
+  background: #000 url("/assets/images/music.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -167,7 +167,7 @@ li {
 
 /* last pic */
 .last-pic {
-  background: url("../../assets/images/end-pic.jpg") no-repeat center/cover;
+  background: url("/assets/images/end-pic.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -221,7 +221,7 @@ li {
 #contact .contact-form input,
 #contact .contact-form textarea {
   width: 100%;
-  padding: 0.5rem; 
+  padding: 0.5rem;
 }
 
 .m-heading {

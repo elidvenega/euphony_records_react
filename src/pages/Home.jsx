@@ -1,11 +1,11 @@
-import React from 'react';
-import { Navbar } from '../components/Navbar';
+import React from "react";
+import { Navbar } from "../components/Navbar";
 
 export const Home = () => {
-    const link = "#";
+  const link = "#";
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div id="store">
         <div id="layer"></div>
         <h1>Euphony Records</h1>
@@ -54,8 +54,8 @@ export const Home = () => {
 
       {/* last pic */}
       <div className="section last-pic"></div>
-       {/* <!-- grid list--> */}
-       <section>
+      {/* <!-- grid list--> */}
+      <section>
         <div className="container-2">
           <div className="grid-cols">
             <ul>
@@ -131,5 +131,5 @@ export const Home = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};

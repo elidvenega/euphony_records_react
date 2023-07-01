@@ -10,7 +10,7 @@ https://euphony-records-store.netlify.app/
 
 ## Tech Stack
 
-**Client:** React, React Router, CSS, SCSS
+**Client:** React, React Router, CSS, SCSS, Vite
 
 ## Installation
 
@@ -24,7 +24,7 @@ https://euphony-records-store.netlify.app/
 ```bash
  cd euphony_records_react
  npm install
- npm start
+ npm run dev
 ```
 
 ## Authors
