@@ -1,9 +1,8 @@
-import React from "react";
 
 export const Footer = () => {
-  const twitter = "https://twitter.com";
-  const facebook = "https://www.facebook.com/";
-  const instagram = "https://www.instagram.com/";
+  const twitter:string = "https://twitter.com";
+  const facebook:string = "https://www.facebook.com/";
+  const instagram:string = "https://www.instagram.com/";
   return (
     <>
       <footer>

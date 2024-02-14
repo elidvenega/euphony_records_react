@@ -1,7 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-export const Albums = () => {
+export const Navbar = () => {
+  const about = "#about";
+  const music = "#music";
   return (
     <>
       <nav className="navbar">
@@ -17,7 +18,10 @@ export const Albums = () => {
           {/* <!-- NAVIGATION MENUS --> */}
           <div className="menu">
             <li>
-              <Link to="/">Home</Link>
+              <a href={about}>About</a>
+            </li>
+            <li className="services">
+              <a href={music}>Music</a>
             </li>
             <li className="services">
               <Link to="/Contact">Contact</Link>
@@ -28,8 +32,6 @@ export const Albums = () => {
           </div>
         </ul>
       </nav>
-
-      <h1 className="text-center mt-2">Albums Coming Soon</h1>
     </>
   );
 };
