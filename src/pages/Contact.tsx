@@ -1,26 +1,10 @@
-import { Link } from "react-router-dom";
+import { Navbar } from "../components/Navbar";
 
 export const Contact = () => {
   return (
     <>
-      <nav className="navbar">
-        {/* <!-- LOGO --> */}
-        <div className="logo">Euphony</div>
-        {/* <!-- NAVIGATION MENU --> */}
-        <ul className="nav-links">
-          {/* <!-- USING CHECKBOX HACK --> */}
-          <input type="checkbox" id="checkbox_toggle" />
-          <label htmlFor="checkbox_toggle" className="hamburger">
-            &#9776;
-          </label>
-          {/* <!-- NAVIGATION MENUS --> */}
-          <div className="menu">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </div>
-        </ul>
-      </nav>
+    <Navbar />
+    
       <section id="contact" className="contain">
         <div className="contact-form bg-primary">
           <h1 className="m-heading text-center mt-4">Contact Us</h1>

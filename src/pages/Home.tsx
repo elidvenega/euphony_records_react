@@ -1,7 +1,7 @@
 import { Navbar } from "../components/Navbar";
 
 export const Home = () => {
-  const link = "#";
+  const link: string = "#";
   return (
     <>
       <Navbar />

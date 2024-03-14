@@ -6,17 +6,17 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        {/* <!-- LOGO --> */}
         <div className="logo">Euphony</div>
-        {/* <!-- NAVIGATION MENU --> */}
-        <ul className="nav-links">
-          {/* <!-- USING CHECKBOX HACK --> */}
+         <ul className="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
           <label htmlFor="checkbox_toggle" className="hamburger">
             &#9776;
           </label>
-          {/* <!-- NAVIGATION MENUS --> */}
+
           <div className="menu">
+            <li className="services">
+              <Link to="/">Home</Link>
+            </li>
             <li>
               <a href={about}>About</a>
             </li>
