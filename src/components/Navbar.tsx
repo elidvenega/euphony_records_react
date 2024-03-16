@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const Navbar = ({ About, Music}) => {
   const about = "#about";
   const music = "#music";
   return (
@@ -18,10 +18,10 @@ export const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href={about}>About</a>
+              <a href={about}>{About}</a>
             </li>
             <li className="services">
-              <a href={music}>Music</a>
+              <a href={music}>{Music}</a>
             </li>
             <li className="services">
               <Link to="/Contact">Contact</Link>
