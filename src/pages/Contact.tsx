@@ -1,9 +1,9 @@
-import { Navbar } from "../components/Navbar";
+// import { Navbar } from "../components/Navbar";
 
 export const Contact = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     
       <section id="contact" className="contain">
         <div className="contact-form bg-primary">

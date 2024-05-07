@@ -1,9 +1,9 @@
-import { Navbar } from "../components/Navbar";
+// import { Navbar } from "../components/Navbar";
 
 export const Albums = () => {
   return (
     <>
-   <Navbar />
+   {/* <Navbar /> */}
 
       <h1 className="text-center mt-2">Albums Coming Soon</h1>
     </>
