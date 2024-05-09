@@ -10,7 +10,7 @@ export interface ImageInfo {
   
   export interface LinkInfo {
     href: string;
-    content?: ImageInfo | string;
+    content?:  string;
   }
   
   export interface BlockInfo {
