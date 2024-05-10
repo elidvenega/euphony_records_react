@@ -1,13 +1,27 @@
 import { Link } from "react-router-dom";
 
-export const Navbar = ({ About, Music}) => {
-  const about = "#about";
-  const music = "#music";
+export const Navbar = ({
+  about,
+  music,
+  contact,
+  albums,
+  aboutId,
+  musicId,
+}: {
+  about?: string;
+  music?: string;
+  contact: string;
+  albums: string;
+  aboutId?: string;
+  musicId?: string;
+}) => {
+  // const aboutId: string = "#about";
+  // const musicId: string = "#music";
   return (
     <>
       <nav className="navbar">
         <div className="logo">Euphony</div>
-         <ul className="nav-links">
+        <ul className="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
           <label htmlFor="checkbox_toggle" className="hamburger">
             &#9776;
@@ -18,16 +32,16 @@ export const Navbar = ({ About, Music}) => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href={about}>{About}</a>
+              <a href={aboutId}>{about}</a>
             </li>
             <li className="services">
-              <a href={music}>{Music}</a>
+              <a href={musicId}>{music}</a>
             </li>
             <li className="services">
-              <Link to="/Contact">Contact</Link>
+              <Link to="/Contact">{contact}</Link>
             </li>
             <li className="services">
-              <Link to="/Albums">Albums</Link>
+              <Link to="/Albums">{albums}</Link>
             </li>
           </div>
         </ul>

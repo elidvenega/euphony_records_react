@@ -1,10 +1,14 @@
-// import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components/Navbar";
 
 export const Contact = () => {
   return (
     <>
-    {/* <Navbar /> */}
-    
+      <Navbar
+        about={"About"}
+        music={"Music"}
+        contact={"Contact"}
+        albums={"Albums"}
+      />
       <section id="contact" className="contain">
         <div className="contact-form bg-primary">
           <h1 className="m-heading text-center mt-4">Contact Us</h1>

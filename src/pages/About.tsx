@@ -1,6 +1,6 @@
 import { Navbar } from "../components/Navbar";
 
-export const Albums = () => {
+export const About = () => {
   return (
     <>
       <Navbar
@@ -9,7 +9,7 @@ export const Albums = () => {
         contact={"Contact"}
         albums={"Albums"}
       />
-      <h1 className="text-center mt-2">Albums Coming Soon</h1>
+      <h1 className="text-center mt-2">About</h1>
     </>
   );
 };

@@ -4,7 +4,12 @@ export const Home = () => {
   const link: string = "#";
   return (
     <>
-      <Navbar About={undefined} Music={undefined} />
+      <Navbar
+        about={"About"}
+        music={"Music"}
+        contact={"Contact"}
+        albums={"Albums"}
+      />
       <div id="store">
         <div id="layer"></div>
         <h1>Euphony Records</h1>
