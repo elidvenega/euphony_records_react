@@ -5,18 +5,12 @@ export const Navbar = ({
   music,
   contact,
   albums,
-  aboutId,
-  musicId,
 }: {
-  about?: string;
-  music?: string;
+  about: string;
+  music: string;
   contact: string;
   albums: string;
-  aboutId?: string;
-  musicId?: string;
 }) => {
-  // const aboutId: string = "#about";
-  // const musicId: string = "#music";
   return (
     <>
       <nav className="navbar">
@@ -32,10 +26,10 @@ export const Navbar = ({
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href={aboutId}>{about}</a>
+              <a href="/About">{about}</a>
             </li>
             <li className="services">
-              <a href={musicId}>{music}</a>
+              <a href="/Music">{music}</a>
             </li>
             <li className="services">
               <Link to="/Contact">{contact}</Link>

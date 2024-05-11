@@ -49,8 +49,7 @@ export const Contact = () => {
                 placeholder="Enter Name"
               ></textarea>
             </div>
-            <button className="btn-submit">Submit</button>
-            {/* <input type="submit" value="Submit" className="btn-submit" /> */}
+            <button className="btn-submit" type="submit">Submit</button>
           </form>
         </div>
       </section>
