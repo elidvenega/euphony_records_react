@@ -1,17 +1,13 @@
-import { Navbar } from "../components/Navbar";
-import { Footer } from "../components/Footer";
-
-export const About = () => {
+export const HomeInfo = () => {
   return (
     <>
-      <Navbar
-        title={"Euphony"}
-        home={"Home"}
-        about={"About"}
-        music={"Music"}
-        contact={"Contact"}
-        albums={"Albums"}
-      />
+      <div id="store">
+        <div id="layer"></div>
+        <h1>Euphony Records</h1>
+        <p>Find the music you like</p>
+
+        <button className="button">Music</button>
+      </div>
       <section id="about" className="container">
         <h1 className="caption text-center">About</h1>
         <p className="lead">
@@ -23,8 +19,19 @@ export const About = () => {
           through music.
         </p>
       </section>
-      <div>
-        <Footer />
+      <div className="squares" id="selection">
+        <div className="square">
+          <h1>Acoustic</h1>
+        </div>
+        <div className="square-1">
+          <h1>All Genres</h1>
+        </div>
+        <div className="square-2">
+          <h1>Rock</h1>
+        </div>
+        <div className="square-3">
+          <h1>Careers</h1>
+        </div>
       </div>
     </>
   );

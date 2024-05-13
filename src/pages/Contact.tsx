@@ -1,9 +1,12 @@
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 export const Contact = () => {
   return (
     <>
       <Navbar
+        title={"Euphony"}
+        home={"Home"}
         about={"About"}
         music={"Music"}
         contact={"Contact"}
@@ -49,10 +52,13 @@ export const Contact = () => {
                 placeholder="Enter Name"
               ></textarea>
             </div>
-            <button className="btn-submit" type="submit">Submit</button>
+            <button className="btn-submit" type="submit">
+              Submit
+            </button>
           </form>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
