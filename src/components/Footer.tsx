@@ -26,7 +26,7 @@ export const Footer = () => {
 
   return (
     <footer>
-      <div className="links">
+      <div className="footer-links">
         <ul>
           {footerLinks.cellBlocks.map((cellBlock, index) =>
             // Check if `cellBlock.link` is defined before accessing it
