@@ -1,15 +1,28 @@
 export const HomeInfo = () => {
+  const homeContent: Content = {
+    cellBlocks: [
+      {
+        title: `Euphony Records`,
+        content: `Find the music you like`,
+        button: `Music`,
+      },
+      {
+        title: `Euphony Records`,
+        content: `Find the music you like`,
+      },
+    ],
+  };
   return (
     <>
       <div id="store">
         <div id="layer"></div>
-        <h1>Euphony Records</h1>
-        <p>Find the music you like</p>
+        <h1>{homeContent.cellBlocks[0].title}</h1>
+        <p>{homeContent.cellBlocks[0].content}</p>
 
-        <button className="button">Music</button>
+        <button className="button">{homeContent.cellBlocks[0].button}</button>
       </div>
       <section id="about" className="container">
-        <h1 className="caption text-center">About</h1>
+        <h2 className="caption text-center">About</h2>
         <p className="lead">
           Euphony records was founded because of my love for music wanting to
           provide music records of different genres to people I decided to open
@@ -21,16 +34,16 @@ export const HomeInfo = () => {
       </section>
       <div className="squares" id="selection">
         <div className="square">
-          <h1>Acoustic</h1>
+          <h2>Acoustic</h2>
         </div>
         <div className="square-1">
-          <h1>All Genres</h1>
+          <h2>All Genres</h2>
         </div>
         <div className="square-2">
-          <h1>Rock</h1>
+          <h2>Rock</h2>
         </div>
         <div className="square-3">
-          <h1>Careers</h1>
+          <h2>Careers</h2>
         </div>
       </div>
     </>

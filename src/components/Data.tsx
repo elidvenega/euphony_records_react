@@ -19,6 +19,7 @@ export interface ImageInfo {
     content?: string;
     image?: ImageInfo;
     link?: LinkInfo;
+    button?: string;
   }
   
   export interface Content {
