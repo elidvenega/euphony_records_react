@@ -1,5 +1,5 @@
 export const AboutData = () => (
-  <section className="height-container container">
+  <section className=" container">
     <h1 className="caption text-center">About</h1>
     <p className="lead">
       Euphony records was founded because of my love for music wanting to

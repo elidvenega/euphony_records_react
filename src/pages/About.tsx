@@ -12,7 +12,9 @@ export const About = () => (
       contact={"Contact"}
       albums={"Albums"}
     />
-    <AboutData />
+   <div className="height-container">
+   <AboutData />
+   </div>
 
     <Footer />
   </>

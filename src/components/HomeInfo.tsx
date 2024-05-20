@@ -1,3 +1,7 @@
+
+import { AboutData } from "./AboutData.tsx";
+import { Content } from "./Data.tsx";
+
 export const HomeInfo = () => {
   const homeContent: Content = {
     cellBlocks: [
@@ -7,8 +11,13 @@ export const HomeInfo = () => {
         button: `Music`,
       },
       {
-        title: `Euphony Records`,
-        content: `Find the music you like`,
+        title: `About`,
+        content: `  Euphony records was founded because of my love for music wanting to
+        provide music records of different genres to people I decided to open
+        a record store. We host local acts on weekends to give them exposure,
+        as well as sponsor many community events as a way to give back to the
+        community. Our mission is just to expose to bring people together
+        through music.`,
       },
     ],
   };
@@ -21,17 +30,13 @@ export const HomeInfo = () => {
 
         <button className="button">{homeContent.cellBlocks[0].button}</button>
       </div>
-      <section id="about" className="container">
-        <h2 className="caption text-center">About</h2>
-        <p className="lead">
-          Euphony records was founded because of my love for music wanting to
-          provide music records of different genres to people I decided to open
-          a record store. We host local acts on weekends to give them exposure,
-          as well as sponsor many community events as a way to give back to the
-          community. Our mission is just to expose to bring people together
-          through music.
-        </p>
-      </section>
+      {/* <section id="about" className="container">
+        <h2 className="caption text-center">
+          {homeContent.cellBlocks[1].title}
+        </h2>
+        <p className="lead">{homeContent.cellBlocks[1].content}</p>
+      </section> */}
+      <AboutData />
       <div className="squares" id="selection">
         <div className="square">
           <h2>Acoustic</h2>

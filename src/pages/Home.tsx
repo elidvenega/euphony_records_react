@@ -18,11 +18,6 @@ export const Home = () => (
     <HomeInfo />
 
     <MusicInfo />
-    {/* fancy laptop img */}
-    <div className="music-img"></div>
-
-    {/* last pic */}
-    <div className="section last-pic"></div>
     <Images />
     <GridList />
     <Footer />
