@@ -1,6 +1,6 @@
 @use "../variables/index" as *;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Sedan:ital@0;1&display=swap");
 
 *,
 *::before,
@@ -11,12 +11,13 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.4;
   max-width: 100%;
   min-height: 100dvh;
   min-height: 100vh;
-
 }
 
 a {
@@ -29,8 +30,7 @@ li {
 
 /* Main picture */
 #store {
-  background: #000 url("/assets/images/main-pic.jpg") no-repeat
-    center/cover;
+  background: #000 url("/assets/images/main-pic.jpg") no-repeat center/cover;
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -72,7 +72,7 @@ li {
   grid-template-columns: repeat(2, 1fr);
   overflow: hidden;
 }
-.squares h1 {
+.squares h2 {
   font-size: 3.7rem;
   margin: 4rem;
 }
@@ -167,6 +167,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3rem;
 }
 
 /* last pic */
